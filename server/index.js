@@ -37,8 +37,8 @@ app.post('/user', jsonParser, (req, res) => {
           const transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-              user: 'eroten@gmail.com',
-              pass: 'ounhgxpvsyipskkj'
+              user: 'email',
+              pass: 'password'
             }
           });
 
